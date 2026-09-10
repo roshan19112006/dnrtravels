@@ -23,15 +23,6 @@ export default function Hero() {
 
       <div className="container hero-elegant-container">
         <div className="hero-elegant-card animate-fade-up">
-          {/* Official Golden Shield Logo in Hero */}
-          <div className="hero-emblem-wrapper">
-            <img 
-              src="/images/dnr-logo-gold.png" 
-              alt="DNR Travels Golden Emblem" 
-              className="hero-emblem-img"
-            />
-          </div>
-
           {/* Subtle Location Tag */}
           <div className="hero-location-tag">
             <MapPin size={13} className="text-gold" />
