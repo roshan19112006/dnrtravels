@@ -74,6 +74,11 @@
     padding: 6px 8px;
   }
 
+  .brand-logo-img {
+    height: 38px;
+    max-width: 160px;
+  }
+
   .brand-name {
     font-size: 1.08rem;
   }

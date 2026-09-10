@@ -47,15 +47,11 @@ export default function Navbar() {
         <div className="container navbar-container">
           {/* Brand Logo */}
           <a href="#home" className="brand-logo" aria-label="DNR Travels Thiruchendur">
-            <div className="logo-icon-wrapper">
-              <Compass size={20} />
-            </div>
-            <div className="brand-text">
-              <span className="brand-name">
-                DNR <span>TRAVELS</span>
-              </span>
-              <span className="brand-tagline">Thiruchendur, Tamil Nadu</span>
-            </div>
+            <img 
+              src="/images/logo.png" 
+              alt="DNR Travels Thiruchendur Logo" 
+              className="brand-logo-img"
+            />
           </a>
 
           {/* Desktop Nav Links */}
@@ -117,14 +113,12 @@ export default function Navbar() {
       <div className={`mobile-drawer-panel ${isMobileOpen ? 'open' : ''}`}>
         <div className="drawer-header">
           <div className="brand-logo">
-            <div className="logo-icon-wrapper">
-              <Compass size={22} />
-            </div>
-            <div className="brand-text">
-              <span className="brand-name">
-                DNR <span>TRAVELS</span>
-              </span>
-            </div>
+            <img 
+              src="/images/logo.png" 
+              alt="DNR Travels Logo" 
+              className="brand-logo-img"
+              style={{ maxHeight: '38px' }}
+            />
           </div>
           <button
             className="mobile-menu-toggle"

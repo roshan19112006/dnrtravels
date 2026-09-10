@@ -20,14 +20,12 @@ export default function Footer({ onOpenModal }) {
           {/* Column 1: Brand Info */}
           <div>
             <div className="brand-logo" style={{ marginBottom: '14px' }}>
-              <div className="logo-icon-wrapper" style={{ background: 'var(--gold-gradient)' }}>
-                <Compass size={24} style={{ color: '#0F172A' }} />
-              </div>
-              <div className="brand-text">
-                <span className="brand-name" style={{ color: '#FFFFFF' }}>
-                  DNR <span style={{ color: 'var(--gold-primary)' }}>TRAVELS</span>
-                </span>
-                <span className="brand-tagline" style={{ color: '#94A3B8' }}>Thiruchendur, Tamil Nadu</span>
+              <div style={{ background: '#FFFFFF', padding: '4px 10px', borderRadius: '10px', display: 'inline-flex', alignItems: 'center' }}>
+                <img 
+                  src="/images/logo.png" 
+                  alt="DNR Travels Logo" 
+                  style={{ height: '36px', width: 'auto', objectFit: 'contain' }}
+                />
               </div>
             </div>
 

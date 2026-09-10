@@ -38,6 +38,20 @@
   align-items: center;
   gap: 10px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.brand-logo-img {
+  height: 44px;
+  width: auto;
+  max-width: 195px;
+  object-fit: contain;
+  display: block;
+  transition: transform var(--transition-bounce);
+}
+
+.brand-logo:hover .brand-logo-img {
+  transform: scale(1.04);
 }
 
 .logo-icon-wrapper {
