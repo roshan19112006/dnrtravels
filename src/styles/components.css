@@ -42,16 +42,17 @@
 }
 
 .brand-logo-img {
-  height: 44px;
+  height: 48px;
   width: auto;
-  max-width: 195px;
+  max-width: 70px;
   object-fit: contain;
   display: block;
+  border-radius: 6px;
   transition: transform var(--transition-bounce);
 }
 
 .brand-logo:hover .brand-logo-img {
-  transform: scale(1.04);
+  transform: scale(1.06);
 }
 
 .logo-icon-wrapper {

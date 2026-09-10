@@ -75,8 +75,9 @@
   }
 
   .brand-logo-img {
-    height: 38px;
-    max-width: 160px;
+    height: 40px;
+    max-width: 55px;
+    border-radius: 4px;
   }
 
   .brand-name {
