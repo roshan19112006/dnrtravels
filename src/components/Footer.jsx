@@ -22,7 +22,7 @@ export default function Footer({ onOpenModal }) {
             <div className="brand-logo" style={{ marginBottom: '14px' }}>
               <div style={{ background: '#FFFFFF', padding: '4px 10px', borderRadius: '10px', display: 'inline-flex', alignItems: 'center' }}>
                 <img 
-                  src="/images/logo.png" 
+                  src="/images/dnr-logo-gold.png" 
                   alt="DNR Travels Logo" 
                   style={{ height: '36px', width: 'auto', objectFit: 'contain' }}
                 />

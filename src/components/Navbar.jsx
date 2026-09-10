@@ -48,7 +48,7 @@ export default function Navbar() {
           {/* Brand Logo */}
           <a href="#home" className="brand-logo" aria-label="DNR Travels Thiruchendur">
             <img 
-              src="/images/logo.png" 
+              src="/images/dnr-logo-gold.png" 
               alt="DNR Travels Thiruchendur Logo" 
               className="brand-logo-img"
             />
@@ -120,7 +120,7 @@ export default function Navbar() {
         <div className="drawer-header">
           <div className="brand-logo">
             <img 
-              src="/images/logo.png" 
+              src="/images/dnr-logo-gold.png" 
               alt="DNR Travels Logo" 
               className="brand-logo-img"
               style={{ maxHeight: '38px' }}

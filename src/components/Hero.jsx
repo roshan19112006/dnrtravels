@@ -26,7 +26,7 @@ export default function Hero() {
           {/* Official Golden Shield Logo in Hero */}
           <div className="hero-emblem-wrapper">
             <img 
-              src="/images/logo.png" 
+              src="/images/dnr-logo-gold.png" 
               alt="DNR Travels Golden Emblem" 
               className="hero-emblem-img"
             />

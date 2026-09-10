@@ -62,8 +62,8 @@ export default function About() {
           <div className="about-image-column animate-fade-up">
             <div className="about-main-img-wrapper" style={{ borderRadius: '24px', overflow: 'hidden', boxShadow: 'var(--shadow-xl)', border: '1px solid var(--border-subtle)' }}>
               <img
-                src="/images/dinesh-owner.jpg"
-                alt="Dinesh - Owner of DNR Travels Thiruchendur"
+                src="/images/dinesh-founder.jpg"
+                alt="Dinesh - Founder of DNR Travels Thiruchendur"
                 className="about-main-img"
                 style={{ 
                   width: '100%', 
