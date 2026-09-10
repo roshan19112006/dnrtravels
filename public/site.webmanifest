@@ -1,0 +1,16 @@
+{
+  "name": "DNR Travels - Premium Travel & Outstation Cabs",
+  "short_name": "DNR Travels",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A1120",
+  "theme_color": "#0A1120",
+  "description": "Safe, comfortable, and punctual travel agency & outstation cab services across South India by Dinesh.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

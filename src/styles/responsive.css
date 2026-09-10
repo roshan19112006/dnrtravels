@@ -1,0 +1,300 @@
+/* ==========================================================================
+   DNR Travels - Responsive Layouts & Deep Mobile Optimization
+   Proper Viewport Zoom, 16px Inputs (No iOS Zoom Distortion),
+   Touch Targets & iPhone Notch Safe Area Support
+   ========================================================================== */
+
+/* Tablet & Medium Screens (<= 1024px) */
+@media (max-width: 1024px) {
+  .fleet-cards-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 14px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .destinations-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+/* Mobile & Small Tablets (<= 768px) */
+@media (max-width: 768px) {
+  /* Container Padding */
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* Section Spacing */
+  .section-padding {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .section-header {
+    margin-bottom: 28px;
+  }
+
+  .section-title {
+    font-size: clamp(1.75rem, 6.5vw, 2.1rem);
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .section-subtitle {
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  /* Navbar on Mobile */
+  .navbar-header {
+    padding: 8px 0;
+  }
+
+  .navbar-actions .nav-call-btn,
+  .nav-links-desktop {
+    display: none !important;
+  }
+
+  .floating-actions-container {
+    bottom: 20px;
+    right: 16px;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+    padding: 6px 8px;
+  }
+
+  .brand-name {
+    font-size: 1.08rem;
+  }
+
+  .logo-icon-wrapper {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* Hero Elegant Section Mobile Sizing */
+  .hero-elegant-section {
+    padding: 75px 0 35px 0;
+    min-height: 55vh;
+    background-position: center top;
+  }
+
+  .hero-elegant-card {
+    padding: 18px 16px;
+    border-radius: var(--radius-md);
+    max-width: 94%;
+  }
+
+  .hero-location-tag {
+    font-size: 0.72rem;
+    padding: 3px 10px;
+    margin-bottom: 8px;
+  }
+
+  .hero-elegant-title {
+    font-size: clamp(1.4rem, 6vw, 1.8rem);
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .hero-elegant-subtitle {
+    font-size: 0.84rem;
+    line-height: 1.45;
+    margin-bottom: 14px;
+  }
+
+  .hero-elegant-ctas {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .hero-btn-main {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 14px;
+    font-size: 0.88rem;
+  }
+
+  .hero-elegant-ctas .hero-btn-sub {
+    width: 100%;
+    justify-content: center;
+    padding: 9px 12px;
+    font-size: 0.84rem;
+  }
+
+  /* Trips Tabs & Grid Mobile */
+  .trip-tabs-container {
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .trip-tab-btn {
+    padding: 10px 16px;
+    font-size: 0.85rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .destinations-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+
+  .destination-image-box {
+    height: 160px !important;
+  }
+
+  .destination-body {
+    padding: 14px 16px !important;
+  }
+
+  .destination-title {
+    font-size: 1.15rem !important;
+  }
+
+  /* About Section Mobile */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .about-main-img {
+    height: 300px !important;
+  }
+
+  .about-experience-badge {
+    bottom: -12px;
+    right: 10px;
+    padding: 10px 14px;
+  }
+
+  .badge-number {
+    font-size: 1.6rem;
+  }
+
+  .badge-text {
+    font-size: 0.74rem;
+  }
+
+  /* Services Grid Mobile */
+  .services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 14px;
+  }
+
+  /* Fleet Cards Grid on Mobile */
+  .fleet-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+  }
+
+  .fleet-select-card {
+    padding: 16px 14px;
+  }
+
+  /* Trip Type Tabs on Mobile */
+  .trip-types-tabs-wrapper {
+    gap: 6px;
+  }
+
+  .trip-type-tab-btn {
+    flex: 1 1 calc(50% - 4px);
+    padding: 8px 10px;
+    font-size: 0.78rem;
+    justify-content: center;
+  }
+
+  /* Lite Booking Form on Mobile */
+  .lite-booking-card {
+    padding: 18px 16px;
+    border-radius: var(--radius-md);
+  }
+
+  .lite-form-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .lite-input-group input,
+  .lite-input-group select {
+    font-size: 16px !important; /* Prevents iOS auto-zoom */
+    padding: 10px 12px;
+  }
+
+  .lite-actions-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .lite-actions-row .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .lite-card-footer {
+    font-size: 0.72rem;
+    gap: 6px;
+  }
+
+  /* Contact & Map Section Mobile */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-feature-card {
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .map-wrapper {
+    min-height: 320px;
+  }
+
+
+  /* Footer on Mobile */
+  .site-footer {
+    padding: 48px 0 24px 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .footer-legal-links {
+    justify-content: center;
+  }
+}
+
+/* Extra Small Phones (<= 360px) */
+@media (max-width: 360px) {
+  .hero-elegant-title {
+    font-size: 1.65rem;
+  }
+
+  .hero-minimal-features {
+    grid-template-columns: 1fr !important;
+  }
+}
+
