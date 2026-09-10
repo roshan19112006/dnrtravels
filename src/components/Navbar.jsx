@@ -52,6 +52,12 @@ export default function Navbar() {
               alt="DNR Travels Thiruchendur Logo" 
               className="brand-logo-img"
             />
+            <div className="brand-text">
+              <span className="brand-name">
+                DNR <span>TRAVELS</span>
+              </span>
+              <span className="brand-tagline">Thiruchendur, Tamil Nadu</span>
+            </div>
           </a>
 
           {/* Desktop Nav Links */}
