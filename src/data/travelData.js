@@ -79,10 +79,58 @@ export const tripCategories = {
   ],
   instation: [
     {
-      id: "thiruchendur-local",
-      district: "Thiruchendur Local",
+      id: "thiruchendur-temples",
+      district: "Thiruchendur Temples",
       tag: "Instation",
       image: "/images/destinations/thiruchendur.jpg"
+    },
+    {
+      id: "kappal-matha",
+      district: "Kappal matha Kovil",
+      tag: "Instation",
+      image: "/images/destinations/kappal-matha.jpg"
+    },
+    {
+      id: "manal-matha",
+      district: "Manal matha Kovil",
+      tag: "Instation",
+      image: "/images/destinations/manal-matha.jpg"
+    },
+    {
+      id: "uvari-suyampulingam",
+      district: "Uvari suyampulingam Kovil",
+      tag: "Instation",
+      image: "/images/destinations/uvari-suyampulingam.jpg"
+    },
+    {
+      id: "therikudiruppu-iynar",
+      district: "Therikudiruppu iynarkovil",
+      tag: "Instation",
+      image: "/images/destinations/therikudiruppu-iynar.jpg"
+    },
+    {
+      id: "vanathiruppathi",
+      district: "Vanathiruppathi Kovil",
+      tag: "Instation",
+      image: "/images/destinations/vanathiruppathi.jpg"
+    },
+    {
+      id: "navathiruppathi",
+      district: "Navathiruppathi Kovil",
+      tag: "Instation",
+      image: "/images/destinations/navathiruppathi.jpg"
+    },
+    {
+      id: "nalumavadi-church",
+      district: "Nalumavadi jesus church",
+      tag: "Instation",
+      image: "/images/destinations/nalumavadi-church.jpg"
+    },
+    {
+      id: "kulasekharapatnam",
+      district: "Kulasekharapatnam & Manapad",
+      tag: "Instation",
+      image: "/images/destinations/manapad.jpg"
     },
     {
       id: "thoothukudi",
@@ -95,12 +143,6 @@ export const tripCategories = {
       district: "Tirunelveli",
       tag: "Instation",
       image: "/images/destinations/tirunelveli.jpg"
-    },
-    {
-      id: "kulasekharapatnam",
-      district: "Kulasekharapatnam & Manapad",
-      tag: "Instation",
-      image: "/images/destinations/manapad.jpg"
     }
   ]
 };
